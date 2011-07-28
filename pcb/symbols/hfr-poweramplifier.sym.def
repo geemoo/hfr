@@ -1,0 +1,23 @@
+[labels]
+
+# visible label
+PA
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=POWERAMPLIFIER
+! description=Power Amplifier
+! footprint=
+! numslots=0
+! source=hfr-poweramplifier.sch
+
+[left]
+1 OUT
+[right]
+2 IN
+[top]
+[bottom]
+[nc]
+

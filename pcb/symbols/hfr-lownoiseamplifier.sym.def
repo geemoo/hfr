@@ -1,0 +1,18 @@
+[labels]
+LNA
+refdes=S?
+! device=LOWNOISEAMPLIFIER
+! description=Low Noise Amplifier
+! footprint=
+! numslots=0
+! source=hfr-lownoiseamplifier.sch
+[left]
+1 IN
+[right]
+2 OUT
+[top]
+[bottom]
+3 G0
+4 G1
+5 G2
+[nc]

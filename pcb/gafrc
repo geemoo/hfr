@@ -1,2 +1,3 @@
+(source-library ".")
 (component-library "symbols")
 (component-library "footprints")

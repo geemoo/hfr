@@ -1,0 +1,22 @@
+[labels]
+
+# visible label
+
+
+# visible attributes
+refdes=J?
+
+# invisible attributes
+! device=SO239
+! description=SO239
+! footprint=SO239_RA_TH
+! numslots=0
+
+[left]
+[right]
+1 Signal
+[top]
+[bottom]
+2 GND
+[nc]
+

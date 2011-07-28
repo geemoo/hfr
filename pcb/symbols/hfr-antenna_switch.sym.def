@@ -1,0 +1,19 @@
+[labels]
+ANTENNA SWITCH
+refdes=S?
+
+# invisible attributes
+! device=ANTENNASWITCH
+! description=Antenna Switch
+! footprint=
+! numslots=0
+
+[left]
+1 Ant
+[right]
+2 TX
+3 RX
+[top]
+[bottom]
+[nc]
+

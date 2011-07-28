@@ -1,0 +1,25 @@
+[labels]
+
+# visible label
+BANDPASS FILTER
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=BPFBANK
+! description=Bank of switchable bandpass filters
+! footprint=
+! numslots=0
+
+[left]
+1 IN
+[right]
+2 OUT
+[top]
+[bottom]
+3 Sel0
+4 Sel1
+5 Sel2
+[nc]
+

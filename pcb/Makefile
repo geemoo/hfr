@@ -1,8 +1,8 @@
 # Name of the project 
-PROJNAME := hf_radio
+PROJNAME := hfr
 
 # We pull in all schematic pages by default.. 
-PAGES := $(shell ls -1 *_p*.sch)
+PAGES := ${PROJNAME}.sch
 
 
 notarget:

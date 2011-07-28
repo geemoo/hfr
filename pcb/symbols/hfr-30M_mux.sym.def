@@ -1,0 +1,23 @@
+[labels]
+
+# visible label
+30MHz 1:2 MUX
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=30M12MUX
+! description=30MHz 1:2 Mux
+! footprint=
+! numslots=0
+
+[left]
+1 A
+[right]
+2 B1
+3 B2
+[top]
+[bottom]
+4 S
+[nc]

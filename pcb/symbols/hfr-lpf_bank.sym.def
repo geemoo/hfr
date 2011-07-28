@@ -1,0 +1,25 @@
+[labels]
+
+# visible label
+LOWPASS FILTER
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=LPFBANK
+! description=Lowpass filter bank
+! footprint=
+! numslots=0
+
+[left]
+1 IN
+[right]
+2 OUT
+[top]
+[bottom]
+3 S0
+4 S1
+5 S2
+[nc]
+
