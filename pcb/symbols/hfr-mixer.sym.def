@@ -1,0 +1,23 @@
+[labels]
+
+# visible label
+MIXER
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=MIXER
+! description=Mixer
+! footprint=
+! numslots=0
+! source=hfr-lo.sch
+
+[left]
+1 RF
+[right]
+2 IF
+[top]
+[bottom]
+3 LO
+[nc]

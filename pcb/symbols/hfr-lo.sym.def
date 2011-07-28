@@ -1,0 +1,25 @@
+[labels]
+
+# visible label
+LO
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=LO
+! description=0 to 37.5MHz local oscillator
+! footprint=
+! numslots=0
+! source=hfr-lo.sch
+
+[left]
+2 ! CS
+3 SCLK
+4 MOSI
+5 MISO
+[right]
+[top]
+1 OUT
+[bottom]
+[nc]
