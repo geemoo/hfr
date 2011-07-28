@@ -2,7 +2,7 @@
 PROJNAME := hfr
 
 # We pull in all schematic pages by default.. 
-PAGES := ${PROJNAME}.sch
+PAGES := ${PROJNAME}.sch *.sch
 
 
 notarget:
