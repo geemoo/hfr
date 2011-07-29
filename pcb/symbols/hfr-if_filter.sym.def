@@ -1,0 +1,23 @@
+[labels]
+if filter
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=IFFILTER
+! description=IF Filter
+! footprint=
+! numslots=0
+! source=hfr-if_filter.sch
+
+[left]
+1 in
+[right]
+2 out
+[top]
+[bottom]
+3 s0
+4 s1
+[nc]
+

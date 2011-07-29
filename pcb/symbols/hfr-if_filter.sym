@@ -1,0 +1,61 @@
+v 20100214 2
+B 300 300 1700 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2400 1200 9 10 0 0 0 0 1
+source=hfr-if_filter.sch
+T 2400 1400 9 10 0 0 0 0 1
+numslots=0
+T 2400 1600 9 10 0 0 0 0 1
+footprint=
+T 2400 1800 9 10 0 0 0 0 1
+description=IF Filter
+T 2400 2000 9 10 0 0 0 0 1
+device=IFFILTER
+T 1200 700 9 10 1 0 0 3 2
+  if
+filter
+T 400 1200 9 10 1 1 0 3 1
+refdes=S?
+P 0 700 300 700 1 0 0
+{
+T 350 700 9 10 1 1 0 1 1
+pinlabel=in
+T 200 750 5 8 1 1 0 6 1
+pinnumber=1
+T 200 750 5 8 0 1 0 6 1
+pinseq=1
+T 200 750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 2300 700 2000 700 1 0 0
+{
+T 1950 700 9 10 1 1 0 7 1
+pinlabel=out
+T 2100 750 5 8 1 1 0 0 1
+pinnumber=2
+T 2100 750 5 8 0 1 0 0 1
+pinseq=2
+T 1900 750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 600 0 600 300 1 0 0
+{
+T 600 350 9 10 1 1 0 3 1
+pinlabel=s0
+T 450 250 5 8 1 1 0 2 1
+pinnumber=3
+T 650 250 5 8 0 1 0 2 1
+pinseq=3
+T 500 50 9 10 0 1 0 6 1
+pintype=pas
+}
+P 900 0 900 300 1 0 0
+{
+T 900 350 9 10 1 1 0 3 1
+pinlabel=s1
+T 750 250 5 8 1 1 0 2 1
+pinnumber=4
+T 950 250 5 8 0 1 0 2 1
+pinseq=4
+T 800 50 9 10 0 1 0 6 1
+pintype=pas
+}
