@@ -1,0 +1,22 @@
+[labels]
+
+# visible label
+AUDIO
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=HFRAUDIO
+! description=Audio Amplifier, speaker and connectors
+! footprint=
+! numslots=0
+! source=hfr-audio.sch
+
+[left]
+1 af_in
+
+[right]
+[top]
+[bottom]
+[nc]

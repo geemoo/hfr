@@ -1,0 +1,26 @@
+[labels]
+
+# visible label
+POWER
+SUPPLY
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=HFRPOWERSUPPLY
+! description=Power Supply
+! footprint=
+! numslots=0
+! source=hfr-powersupply.sch
+
+[left]
+1 VCCIN
+[right]
+2 VCCOUT
+
+3 switch1
+4 switch2
+[top]
+[bottom]
+[nc]

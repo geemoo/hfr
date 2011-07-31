@@ -1,0 +1,30 @@
+[labels]
+
+# visible label
+BUTTONS
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=HFRBUTTONS
+! description=Assorted knobs and buttons on the radio
+! footprint=
+! numslots=0
+! source=hfr-buttons.sch
+
+[left]
+[right]
+1 ROT_A
+2 ROT_B
+3 ROT_Com
+
+4 BUT_MENU
+5 BUT_ENTER
+
+6 BUT_POWERA
+7 BUT_POWERB
+
+[top]
+[bottom]
+[nc]

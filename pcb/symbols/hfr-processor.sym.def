@@ -1,0 +1,69 @@
+[labels]
+
+# visible label
+PROCESSOR
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=PARTNUM
+! description=DESCRIPTION
+! footprint=FOOTPRINT
+! numslots=0
+! source=hfr-processor.sch
+
+[left]
+.bus
+1 band0
+2 band1
+3 band2
+
+.bus
+4 gain0
+5 gain1
+6 gain2
+
+7 txrx
+
+.bus
+8 lo_csn
+9 lo_sclk
+10 lo_mosi
+11 lo_miso
+
+.bus
+12 if0
+13 if1
+
+.bus 
+14 rot_a
+15 rot_b
+16 rot_com
+
+.bus
+17 but_menu
+18 but_enter
+
+.bus
+19 but_powera
+20 but_powerb
+
+[right]
+21 led_power
+22 led_tx
+23 lcd_rs
+24 lcd_rw
+25 lcd_e
+26 lcd_d0
+27 lcd_d1
+28 lcd_d2
+29 lcd_d3
+30 lcd_d4
+31 lcd_d5
+32 lcd_d6
+33 lcd_d7
+
+[top]
+[bottom]
+[nc]

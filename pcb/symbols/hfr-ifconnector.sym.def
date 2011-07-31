@@ -1,0 +1,29 @@
+[labels]
+
+# visible label
+IF
+CONNECTOR
+
+# visible attributes
+refdes=S?
+
+# invisible attributes
+! device=IFCONNECTOR
+! description=Connector for the IF modules
+! footprint=
+! numslots=0
+
+[left]
+1 if_in
+2 af_out
+
+.bus
+3 csn
+4 sclk
+5 mosi
+6 miso
+
+[right]
+[top]
+[bottom]
+[nc]
